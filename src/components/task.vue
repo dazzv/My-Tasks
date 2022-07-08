@@ -9,7 +9,6 @@
           v-for="(task, index) in filteredList"
           :key="index"
           >
-        <!-- <button class="btn_check"><input class="check" type="checkbox"></button> -->
         <div class="task_body">
             <h3>{{task.title}}</h3>
             <p>{{task.description}}</p>

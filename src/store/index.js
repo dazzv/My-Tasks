@@ -55,33 +55,4 @@ export default createStore({
       return state.deletedTasks;
     },
   }
-  // [
-  //   {
-  //     "id": 0,
-  //     "title": "Learning to Learn",
-  //     "description": "Course: Learning How to Learn: Powerful mental tools to help you master tough subjects: https://www.coursera.org/ learn/learning - how - to - learn/home/welcome",
-  //     "is_completed": true,
-  //     "is_deleted": false,
-  // },
-  // {
-  //     "id": 1,
-  //     "title": "Updated title",
-  //     "description": "Updated description",
-  //     "is_completed": false,
-  //     "is_deleted": false,
-  // },
-  // {
-  //     "id": 2,
-  //     "title": "Postman",
-  //     "description": "This is task description",
-  //     "is_completed": false,
-  //     "is_deleted": false,
-  // },
-  // {
-  //     "id": 3,
-  //     "title": "Finish Free Task API",
-  //     "description": "Deploy on server, setup HTTPS certificate",
-  //     "is_completed": false,
-  //     "is_deleted": false,
-  // }]
 })
