@@ -55,7 +55,7 @@ $color2: rgb(149, 149, 149);
   h1 {
     width: 50%;
     color: #fff;
-    font-size: calc(25px + 10 * ((100vw - 320px) / (1280 - 320)));
+    font-size: calc(30px + 10 * ((100vw - 320px) / (1280 - 320)));
   }
 }
 .btn {

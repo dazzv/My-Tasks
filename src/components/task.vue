@@ -82,9 +82,10 @@ $color2: rgb(149, 149, 149);
     background-color: #fff;
     box-shadow: 0 0 8px 4px rgb(240, 237, 237);
     margin: 20px 0;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px;
+    padding: 15px;
     align-items: center;
     .check {
         width: 20px;
@@ -94,7 +95,7 @@ $color2: rgb(149, 149, 149);
         width: 90%;
     }
     h3 {
-        padding: 4px 0;
+        padding: 4px 0 8px 0;
         font-size: calc(16px + 2 * ((100vw - 320px) / (1280 - 320)));
     }
     p {
@@ -121,7 +122,7 @@ $color2: rgb(149, 149, 149);
     height: 40px;
 
     .v-select {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.898);
     margin: 10px 0;
     width: 180px;
     border-bottom: 2px solid $color1;
@@ -131,7 +132,7 @@ $color2: rgb(149, 149, 149);
     position: absolute;
     z-index: 5;
         li {
-            padding: 2px 0;
+            padding: 5px 0;
         }
     }
     .vs__dropdown-toggle {

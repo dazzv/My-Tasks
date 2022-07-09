@@ -53,9 +53,11 @@ export default {
                 }
                 
                 //action
+
                 this.addNewTaskToList(newTask)
                 this.successfull = true
-                setTimeout(() => this.successfull = false, 3000)
+                setTimeout(() => this.successfull = false, 1500)
+                setTimeout(() => window.location.pathname = '/list', 1600)
             } else {
                 alert("Please enter a title and description for the task!")
             }  
@@ -80,10 +82,11 @@ h1{
 input{
     border-bottom: 1px solid $color1;
     padding: 4px;
-    font-size: 15px;
+    font-size: 18px;
+
 }
 textarea{
-    font-size: 16px;
+    font-size: 15px;
     border: 1px solid $color1;
     height: 150px;
     width: 100%;
