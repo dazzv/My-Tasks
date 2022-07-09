@@ -13,6 +13,8 @@ npm run serve
 ```
 npm run build
 ```
+Сайт: https://dazzv-mytasks.netlify.app/
+
 Исполнитель: Давлат Азизов
 
 Тестовое задание от Mediasoft 
