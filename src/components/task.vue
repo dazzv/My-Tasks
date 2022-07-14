@@ -51,7 +51,7 @@ export default {
             } else if(this.filter === "Performed") {
                 return this.list.filter(t => t.is_completed === true & t.is_deleted === false)
             } else {
-                return this.list
+                this.list.filter(t => t.is_deleted === false)
             }
         },
     },
