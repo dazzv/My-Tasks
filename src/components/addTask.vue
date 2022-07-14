@@ -16,7 +16,7 @@
         </div>
         <div></div>
         <span v-if="successfull" class="msg">Succesfull !</span>
-        <button class="btn2 add" @click="addNewTask"><span v-if="id === ':id'">Add</span><span v-if="id >= 0">Edit</span></button>
+        <button class="btn2 add" @click="addNewTask"><span v-if="id >= 0">Edit</span><span v-else>Add</span></button>
         <router-link to="/list"><button class="btn2"> Back </button></router-link>
     </div>
 </template>
