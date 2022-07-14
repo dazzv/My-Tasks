@@ -53,11 +53,10 @@ export default {
                 }
                 
                 //action
-
                 this.addNewTaskToList(newTask)
                 this.successfull = true
-                setTimeout(() => this.successfull = false, 1500)
-                setTimeout(() => window.location.pathname = '/list', 1600)
+                setTimeout(() => this.successfull = false, 1000)
+                setTimeout(() => this.$router.push('/list'), 1100)
             } else {
                 alert("Please enter a title and description for the task!")
             }  
